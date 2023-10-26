@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@600&family=Montserrat&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@600&family=Space+Mono&display=swap');
+body {
+    background-color:#f2d1eb56;
+    color:rgb(1, 6, 12);
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+.logo {
+    font-family: Georgia, 'Times New Roman', Times, serif
+    cursor: pointer;
+    font-size: 30px;
+
+    
+}
+
+.logo:hover{
+    transition:all 0.3s ease 0s;
+    color:rgba(250, 152, 250, 1);
+}
+
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    scroll-padding-top: 1rem;
+    overflow-x: hidden;
+}
+
+li, a, button {
+    font-weight: 550;
+    font-size: 16px;
+    text-decoration: none;
+    color:rgb(40, 4, 65);
+    font-size: 20px;
+
+}
+
+.header-content {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: rgba(197, 181, 243, 0.279);
+    border-radius: 55px;
+    border: solid rgb(190, 174, 238);
+
+}
+
+
+.navlinks {
+    list-style: none;
+}
+
+.navlinks li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navlinks li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navlinks li a:hover{
+    color: rgba(250, 152, 250, 0.9);
+    text-decoration: underline;
+}
+
+button {
+    padding: 9px 25px;
+    background-color:rgba(249, 215, 249, 0.9);
+    border:solid #f58af598;
+    border-radius: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor:pointer;
+    transition:all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color:rgba(250, 152, 250, 0.8);
+}
+
+.welcome h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    text-align: center;
+    font-family: Georgia;
+    font-size: 8.5rem;
+    font-weight: 1rem;
+    color: transparent;
+    background: 
+    url(https://media.giphy.com/media/bw14WlhKyivks/giphy.gif) no-repeat;
+    background-size: cover;
+    -webkit-background-clip: text;
+}
+.intro {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.about .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2rem;
+}
+
+.about .row .introduction {
+    padding-top: 9rem;
+    padding-left: 5rem;
+    font-size: 1.2rem;
+    max-width: 45ch;
+    padding-bottom: 9rem;
+}
+
+.about .row img {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding-right: 5rem;
+    padding-top: 10rem;
+    padding-bottom: 4rem;
+}
+
+.about p {
+    line-height: 40px;
+}
+
+.about h1 {
+    text-align: center;
+}
