@@ -11,12 +11,11 @@ body {
     cursor: pointer;
     font-size: 30px;
 
-    
 }
 
 .logo:hover{
     transition:all 0.3s ease 0s;
-    color:rgba(250, 152, 250, 1);
+   background-color: rgba(161, 19, 161, 0.9);
 }
 
 * {
@@ -45,6 +44,7 @@ li, a, button {
     background-color: rgba(197, 181, 243, 0.279);
     border-radius: 55px;
     border: solid rgb(190, 174, 238);
+    margin-top: 10px
 
 }
 
@@ -63,7 +63,7 @@ li, a, button {
 }
 
 .navlinks li a:hover{
-    color: rgba(250, 152, 250, 0.9);
+    background-color: rgba(161, 19, 161, 0.9);
     text-decoration: underline;
 }
 
@@ -78,13 +78,13 @@ button {
 }
 
 button:hover {
-    background-color:rgba(250, 152, 250, 0.8);
+    background-color: rgba(161, 19, 161, 0.9);
 }
 
 .welcome h1 {
     display: flex;
     justify-content: center;
-    padding-top: 3rem;
+    padding-top: 4rem;
     text-align: center;
     font-family: Georgia;
     font-size: 8.5rem;
@@ -95,10 +95,14 @@ button:hover {
     background-size: cover;
     -webkit-background-clip: text;
 }
-.intro {
-    font-size: 20px;
+#intro {
+    font-size: 25px;
     text-align: center;
     margin-top: 5px;
+    margin-left: 20px; 
+    margin-right: 20px;
+    font-style:italic;
+    margin-bottom: 32px;
 }
 
 .about .row {
@@ -108,11 +112,11 @@ button:hover {
 }
 
 .about .row .introduction {
-    padding-top: 9rem;
+    padding-top: 5rem;
     padding-left: 5rem;
     font-size: 1.2rem;
     max-width: 45ch;
-    padding-bottom: 9rem;
+    padding-bottom: none;
 }
 
 .about .row img {
@@ -120,14 +124,132 @@ button:hover {
     width: 100%;
     height: auto;
     padding-right: 5rem;
-    padding-top: 10rem;
+    padding-top: 6rem;
     padding-bottom: 4rem;
 }
 
 .about p {
     line-height: 40px;
+    margin-top: 20px;
 }
 
 .about h1 {
     text-align: center;
+
 }
+.workrow {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 5rem;
+    padding-bottom: none;
+    padding-left: 5rem;
+    font-size: 1.2rem;
+    max-width: 100%;
+    
+}
+
+.workrow h2 {
+    align-items: center
+}
+
+.work .placeholders {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    color:  rgb(40, 4, 65);
+    justify-items: center;
+    width: 100%;
+    background-color: rgba(197, 181, 243, 0.279);
+    border-radius: 15px;
+    border: solid rgb(190, 174, 238);
+}
+
+.work .placeholders img {
+    width: 50%;
+    padding-top: 1rem;
+    padding-bottom: none;
+    margin-bottom: none;
+    margin-left: none;
+    position: relative;
+}
+
+.project {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+
+
+.github:hover {
+    background-color: rgba(161, 19, 161, 0.299);
+}
+
+.placeholders h4 {
+ font-size: 25px;
+}
+
+.profiles {
+    text-align: center;
+    color:rgb(12, 11, 12); 
+   
+}
+
+
+.connect {
+    margin-bottom: 20px;
+}
+.connectlinks li {
+    display: inline-block
+}
+
+.connectlinks li:hover {
+    background-color: rgba(161, 19, 161, 0.5);
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4 {
+    color: transparent;
+    background: url(https://media.giphy.com/media/bw14WlhKyivks/giphy.gif) no-repeat;
+    background-size: cover;
+    -webkit-background-clip: text;
+}
+
+#contact {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.contactform input[type="text"],
+.contactform input[type="email"],
+.contactform textarea {
+    background-color: #f7bdebb0;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+}
+
+.sendbutton {
+    padding: 9px 25px;
+    background-color:rgba(249, 215, 249, 0.9);
+    border:solid #f58af598;
+    border-radius: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+.sendbutton:hover {
+    background-color: rgba(161, 19, 161, 0.9);
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.invitation .name {
+    font-size: 30px
+}
+
